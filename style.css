@@ -1,0 +1,48 @@
+.one,
+.two,
+.three {
+  display: flex;
+  width: 40%;
+  padding: 10%;
+}
+
+.one {
+  background-color: beige;
+}
+
+.two {
+  background-color: bisque;
+}
+.three {
+  background-color: blanchedalmond;
+}
+
+.one > div,
+.two > div,
+.three > div {
+  width: 50%;
+}
+
+.one .i {
+  background-color: #007bff;
+}
+
+.one .j {
+  background-color: #ffa500;
+}
+
+.two .i {
+  background-color: #5dade2;
+}
+
+.two .j {
+  background-color: #f5b041;
+}
+
+.three .i {
+  background-color: #1f3a93;
+}
+
+.three .j {
+  background-color: #ff5733;
+}
